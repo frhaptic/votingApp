@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vote App</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+    
+    .selected {
+      color: #D78825;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vote App</h1>
+  
+  <label for="item-input">Insert Item:</label>
+  <input type="text" id="item-input">
+  <button id="add-button">Add</button>
+  
+  <ul id="item-list"></ul>
+  
+  <button id="pick-favorites-button">Pick 3</button>
+  
+  <h2>Selected Favorites:</h2>
+  <div id="favorites-container"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
